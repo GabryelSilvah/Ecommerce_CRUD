@@ -1,0 +1,146 @@
+/*conf globais*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*conf especificas*/
+
+
+
+
+.infor_produto {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    height: max(700px, 6rem);
+    width: 90vw;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px 4px 80px rgba(0, 0, 0, 0.212);
+}
+
+.infor_produto .column_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infor_produto .column_1 .container_img {
+    margin-left: 5%;
+    height: 50%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.infor_produto .column_1 .container_img .img_produto {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.img_miniaturas {
+    margin:10px 0 0 5%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img_miniaturas img {
+    width: 90px;
+}
+
+.img_produto:hover {
+    scale: 1.5;
+}
+.titulo{
+    width: 90%;
+    background: -webkit-linear-gradient(120deg, rgb(230, 230, 230), rgb(233, 233, 233));
+    color: #000000;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+.descricao{
+    margin-top: 40px;
+    width: 100%;
+    text-align: justify;
+    font-family: 'Karla', sans-serif;
+
+}
+.infor_produto .column_2 {
+    margin: 50px 20px;
+    text-align: center;
+}
+
+/*Columa 3*/
+.column_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.column_3 .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: -webkit-linear-gradient(120deg, rgb(49, 209, 182), rgb(2, 216, 231));
+    border-radius: 15px;
+    height: 90%;
+    width: 90%;
+}
+
+.column_3 .quant {
+    display: flex;
+    gap: 10px;
+}
+
+.column_3 select {
+    width: 60px;
+}
+
+.column_3 .btn-carrinho {
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 7px;
+    transition: 0.5s;
+    font-size: 0.9rem;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.column_3 .btn-carrinho:hover {
+    translate: 0 -5px;
+}
+
+
+.selecionado{
+    border: 2px solid rgb(0, 204, 255);
+}

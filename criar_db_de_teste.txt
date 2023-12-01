@@ -1,0 +1,20 @@
+create database ecommerce;
+use ecommerce;
+
+create table cadastro_produtos(
+titulo_Produto varchar (100) not null,
+descricao_Produto varchar (1200) not null,
+img1 varchar(110),
+img2 varchar(110),
+img3 varchar(110),
+quantEstoque int,
+primary key (titulo_Produto)
+);
+
+create table destaque(
+produtosDestaque varchar (130)
+);
+
+SELECT*FROM cadastro_produtos;
+
+select*from destaque;

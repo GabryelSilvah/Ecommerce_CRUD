@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="css_local_painel/local_nav_painel.css">
+    <link rel="stylesheet" href="css_local_painel/cadastro_produtos.css">
+</head>
+
+<body>
+
+<header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="painel_de_controle.html">Painel de controle</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Cadastro de produtos-->
+    <main>
+        <form action="enviar.php" method="post" class="formulario" enctype="multipart/form-data">
+            <label for="">Inserir a imagem principal do Produto</label> <br>
+            <input type="file" name="file" class="input_img"> <br>
+
+            <label for="">2° imagem</label> <br>
+            <input type="file" name="file2" class="input_img"> <br>
+
+            <label for="">3° imagem </label> <br>
+            <input type="file" name="file3" class="input_img"> <br>
+
+
+            <label for="">Titulo do Produto</label><br>
+            <input type="text" name="titulo" class="input_text"> <br>
+
+            <label for="">Descrição do Produto</label> <br>
+            <textarea style="resize:none;" name="descricao" id="descricao" cols="30" rows="10"></textarea> <br>
+
+            <label for="">Quantidade em estoque</label> <br>
+            <input type="number" name="quant" class="btn_num"><br><br>
+
+
+            <button type="submit" name="cadastrar" class="btn-cadastrar">Cadastrar</button>
+        </form><br>
+   
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+/*menu*/
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 203, 176);
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.icones li {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu .icones li a{
+    color: #fff;
+    font-size: 1rem;
+}
+/*footer*/
+.container_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(0, 203, 176);
+    height: 170px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container_footer div{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icones-footer {
+    height: 40px;
+}

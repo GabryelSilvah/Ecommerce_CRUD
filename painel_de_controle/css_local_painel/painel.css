@@ -1,0 +1,30 @@
+.container_img_principal{
+    margin-bottom: 50px;
+}
+.img_principal{
+
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+.controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-cadastrar,
+.btn-destaque {
+    background-color: rgb(0, 197, 131);
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
