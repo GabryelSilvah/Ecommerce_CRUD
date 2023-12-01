@@ -1,5 +1,5 @@
-#CRUD_Ecommerce
-##Motivação
+# CRUD_Ecommerce
+## Motivação
 Site ecommerce simples. Feito sem arquitetura  de software(como MVC).
 Meu objetivo com esse projeto foi de exercitar minhas habilidades com o php, 
 sem me preocupar com arquitetura MVC, sistemas de rotas ou seo. Fiz a maioria dos códigos php misturados ao html.
