@@ -1,4 +1,7 @@
 # CRUD_Ecommerce
+
+> Status: em desenvolvimento
+
 ## Motivação
 Site ecommerce simples. Feito sem arquitetura  de software(como MVC).
 Meu objetivo com esse projeto foi de exercitar minhas habilidades com o php, 
